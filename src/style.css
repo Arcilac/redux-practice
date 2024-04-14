@@ -5,18 +5,18 @@ body {
 }
 
 body {
-  color: rgb(0 0 0 / 50%);
-  font-family: "Orbitron", sans-serif;
+  color: #000; /* Cambiado a negro */
+  font-family: Arial, sans-serif; /* Cambiado el tipo de letra */
   background-image: linear-gradient(
     to bottom,
-    rgb(114, 114, 186),
-    rgb(170, 232, 232)
+    rgb(67, 156, 200),
+    /* Cambiado el tono de azul */ rgb(115, 193, 218) /* Cambiado el tono de azul */
   );
   background-attachment: fixed;
 }
 
 header {
-  color: rgb(0 0 0 / 50%);
+  color: #000; /* Cambiado a negro */
 }
 
 .ExchangeRate-header {
@@ -27,8 +27,8 @@ header {
 
 .currencyCode {
   background: none;
-  color: rgb(0 0 0 / 50%);
-  border-color: rgb(0 0 0 / 50%);
+  color: #000; /* Cambiado a negro */
+  border-color: #000; /* Cambiado a negro */
   border-radius: 0.75em;
   padding: 0.25em;
   vertical-align: middle;
@@ -45,8 +45,8 @@ header {
   font-size: 2.8em;
   background: none;
   border: none;
-  font-family: "Orbitron", sans-serif;
-  color: rgb(0 0 0 / 50%);
+  font-family: Arial, sans-serif; /* Cambiado el tipo de letra */
+  color: #000; /* Cambiado a negro */
   text-align: center;
   max-width: 100%;
 }
@@ -66,6 +66,7 @@ header {
 section {
   padding: 1em;
 }
+
 section + section {
-  border-top: 1px solid rgba(50, 40, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3); /* Cambiado a negro */
 }
