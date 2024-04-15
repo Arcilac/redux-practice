@@ -3,7 +3,7 @@ const initialState = {
     loggedIn: false,
 }
 
-export function userReducer(state, action) {
+export function userReducer(state = initialState, action) {
     return state
 }
 

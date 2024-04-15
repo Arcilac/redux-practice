@@ -6,11 +6,12 @@ import { ExchangeRate } from "./components/ExchangeRate"
 import { getInitialRates } from "./store/rates"
 import "./style.css"
 
-// kick start ajax call for exchange rates
+// kick start AJAX call for exchange rates
 store.dispatch(getInitialRates)
 
 ReactDOM.render(
-    <Provider store={store}>
+  <Provider store={store}>
     <ExchangeRate />
-    </ Provider>,
-     document.getElementById("root"))
+  </Provider>,
+  document.getElementById("root")
+)
