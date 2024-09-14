@@ -10,7 +10,8 @@ body {
   background-image: linear-gradient(
     to bottom,
     rgb(67, 156, 200),
-    /* Cambiado el tono de azul */ rgb(115, 193, 218) /* Cambiado el tono de azul */
+    /* Cambiado el tono de azul */ rgb(115, 193, 218)
+      /* Cambiado el tono de azul */
   );
   background-attachment: fixed;
 }

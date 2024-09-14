@@ -1,13 +1,13 @@
 const initialState = {
-    fullName: "Jamund Ferguson",
-    loggedIn: false,
+  fullName: "Camila",
+  loggedIn: false,
 }
 
 export function userReducer(state = initialState, action) {
-    return state
+  return state
 }
 
 // selectors
 export const getName = (state) => {
-    return state.user.fullName.split(" ")[0].toLowerCase()
+  return state.user.fullName.split(" ")[0].toLowerCase()
 }
